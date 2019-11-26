@@ -1,24 +1,64 @@
 html {
+  box-sizing: border-box;
   line-height: 1.5;
   background-color: #dcd4cd;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 a {
   background-color: #cabdb2;
-  border-width: 3px;
-  border-radius: 3px;
-  border-color: #785439;
+  border-radius: 8px;
+  border: 3px solid #9a816d;
   text-decoration: none;
   color: #512200;
   display: inline-block;
+  padding: 1rem;
 }
 
-h1 {
+h2 {
   font-family: 'Dosis', sans-serif;
   font-weight: bold;
+  padding: 1rem;
+  margin: 0;
 }
 
 dd {
   font-style: italic;
   display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.left, .right {
+  min-width: 45%;
+  display: inline-block;
+  font-size: .9rem;
+}
+
+dl {
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  font-family: 'Georgia',serif;
+}
+
+p {
+  font-size: 1.125rem;
+  font-family: 'Georgia',serif;
+}
+
+.btn {
+  border: 3px solid #785439;
+  background-color: #785439;
+  color: #f0eee8;
+  border-radius: 3px;
+  padding: .4em .75em .5em;
+  text-align: center;
+  max-width: 50px;
+  min-width: 50%;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  margin: 0, auto;
 }
