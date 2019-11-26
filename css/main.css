@@ -1,0 +1,24 @@
+html {
+  line-height: 1.5;
+  background-color: #dcd4cd;
+}
+
+a {
+  background-color: #cabdb2;
+  border-width: 3px;
+  border-radius: 3px;
+  border-color: #785439;
+  text-decoration: none;
+  color: #512200;
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+
+dd {
+  font-style: italic;
+  display: inline;
+}
