@@ -63,6 +63,7 @@ p {
   min-width: 50%;
   font-family: Dosis, sans-serif;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .link-card:hover {
